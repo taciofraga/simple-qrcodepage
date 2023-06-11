@@ -64,3 +64,18 @@ p {
   margin-bottom: 20px;
   font-size: 15px;
 }
+
+.attribution {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  main {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+  }
+}
